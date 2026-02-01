@@ -1,6 +1,6 @@
-pivot = list(map(int, input().split))
+pivot = list(map(int, input().split()))
 
-for _ in range(10)
+for _ in range(10):
     num = pivot[-1]+pivot[-2]
     num = num % 10
     pivot.append(num)
