@@ -3,14 +3,14 @@ N = int(input())
 
 for num in range(N, 1010):
   	if num >= 90:
-       print("A")
+       print("A", end=" ")
     elif num >= 80:
-       print("B")
+       print("B", end=" ")
     elif num >= 70:
-        print("C")
+        print("C", end=" ")
     elif num >= 60:
-       print("D")
+       print("D", end=" ")
     else:
-		print("F")
+		print("F", end=" ")
   
 print(num, end=" ")
