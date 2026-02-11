@@ -2,6 +2,7 @@
 # 두 배열의 곱
 # 정답 코드
 arr_1 = [list(map(int, input().split())) for _ in range(3)]
+input()
 arr_2 = [list(map(int, input().split())) for _ in range(3)]
 
 #  0번 인덱스부터 2번까지 훑기 (range(3)이면 idx는 0,1,2)
