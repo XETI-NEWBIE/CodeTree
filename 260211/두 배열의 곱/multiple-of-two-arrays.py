@@ -1,5 +1,6 @@
 
-
+# 두 배열의 곱
+# 정답 코드
 arr_1 = [list(map(int, input().split())) for _ in range(3)]
 arr_2 = [list(map(int, input().split())) for _ in range(3)]
 
