@@ -1,4 +1,4 @@
 a = 3
-b = "c"
+b = "C"
 
 print(a,b, sep="...")
