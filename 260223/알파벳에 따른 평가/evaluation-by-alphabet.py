@@ -1,5 +1,5 @@
 
-n=int(input())
+n=str(input())
 
 if n=="S":
     print("Superior")
