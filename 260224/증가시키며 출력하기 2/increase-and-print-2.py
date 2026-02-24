@@ -1,4 +1,4 @@
-i=9
-while 9<=i<=26:
-    i+=1
+i=10
+while 10<=i<=26:
     print(i, end=" ")
+    i+=1
