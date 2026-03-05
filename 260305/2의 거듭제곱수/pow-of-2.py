@@ -6,7 +6,7 @@ while True:
     if n == prod:
         break
     
-    prod += 2
+    prod *= 2
     x+=1
 
 print(x)
