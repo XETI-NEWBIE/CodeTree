@@ -11,8 +11,8 @@ while True:
     if 20<=n<30:
        sum += n
        cnt += 1
-       result = sum / cnt
 
+result = sum / cnt
 print(f'{result:.2f}')
 
 
