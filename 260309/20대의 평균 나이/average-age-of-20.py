@@ -5,7 +5,7 @@ cnt=0
 while True:
     n=int(input())
 
-    if n>=30:
+    if n<20 or n>=30:
         break
 
     if 20<=n<30:
