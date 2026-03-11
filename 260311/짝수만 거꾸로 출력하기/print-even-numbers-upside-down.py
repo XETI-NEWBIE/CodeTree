@@ -1,18 +1,17 @@
 
-total_sum = 0
+total_age = 0
 count = 0
 
-# while 돌면서 age 인풋
 while True:
     age = int(input())
-    # 20대가 아니면 반복 종료
+    
+    # 20대가 아니면 (20미만 혹은 30이상이면) 브레이크
     if age < 20 or age >= 30:
         break
-    # 합계 / count 더해주기
-    total_sum += age
+        
+    total_age += age
     count += 1
 
-# 평균 계산 및 출력
-if count > 0:
-    avg = total_sum / count
-    print(f"{avg:.2f}")
+# 평균 계산 (첫 번째 사람은 반드시 20대임)
+average = total_age / count
+print(f"{average:.2f}")
